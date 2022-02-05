@@ -1,6 +1,6 @@
-
 name: Publish docs (Storybook) to GitHub Pages QA
-on: 
+on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
